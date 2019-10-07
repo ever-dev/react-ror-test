@@ -1,0 +1,13 @@
+{
+  "name": "react-ruby-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "concurrently --kill-others \"npm run start-client\" \"npm run start-server\"",
+    "start-client": "npm start --prefix client/",
+    "start-server": "cd server && rails server -p 3001"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}

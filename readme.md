@@ -1,0 +1,1 @@
+Please run `npm run dev` and it will run the front with 3000 port and the backend with 3001 port.
