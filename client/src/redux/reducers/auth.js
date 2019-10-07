@@ -1,4 +1,4 @@
-export const auth = (state = { isLoggedIn: true, error: "" }, action) => {
+export const auth = (state = { isLoggedIn: false, error: "" }, action) => {
   switch (action.type) {
     case "SIGN_IN":
       if (action.username === "Admin" && action.password === "test1A") {
